@@ -5,7 +5,7 @@ import './resume.css'
 
 const resume = () => {
   return (
-    <div>resume</div>
+    <section>resume</section>
   )
 }
 

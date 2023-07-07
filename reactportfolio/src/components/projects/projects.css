@@ -1,0 +1,47 @@
+.portContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project {
+  background-color: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.project:hover {
+  border-color: var(--color-bg-variant);
+  background: transparent;
+}
+
+.projectImg {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.project h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.projectBtns {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .portContainer {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/* media queries (phones) */
+
+@media screen and (max-width: 600px) {
+  .portContainer {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
