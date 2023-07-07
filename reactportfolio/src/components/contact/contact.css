@@ -12,25 +12,27 @@
 }
 
 .opt {
-  background: var(--color-bg-variant);
+  background: var(--color-primary);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  color: var(--color-black);
 }
 
 .opt:hover {
-  background: transparent;
+  background: var(--color-black);
   border-color: var(--color-primary-variant);
+  color: var(--color-bg);
 }
 
 /* whenn icon is added */
 
-/* .icon {
-  font-size: 1.5rem;
+.icon {
+  font-size: 3rem;
   margin-bottom: 0.5rem;
-} */
+}
 
 .opt a {
   margin-top: 0.7rem;

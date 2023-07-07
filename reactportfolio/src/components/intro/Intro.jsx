@@ -1,23 +1,26 @@
 import React from "react";
-import "./header.css";
+import "./intro.css";
 import lbImg from "../../images/Myname.jpg";
 import Socials from "./Socials";
+import IntroBtns from "../introBtns/IntroBtns";
 
 const Intro = () => {
   return (
-    <header>
+    <section>
       <div className="container headerContainer">
         <h5>Hello I'm</h5>
         <h1>Albi Krasniqi</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5>Fullstack Developer</h5>
+        <IntroBtns />
         <div>
           <div className="myImage">
             <img src={lbImg} alt="avatar" />
           </div>
           <Socials />
         </div>
+        <h5>Or Use the Navigation Bar Below to See More!!</h5>
       </div>
-    </header>
+    </section>
   );
 };
 

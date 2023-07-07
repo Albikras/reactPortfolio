@@ -3,10 +3,9 @@
   grid-template-columns: 35% 50%;
   gap: 15%;
 }
-
 .myImg {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1/1.5;
   border-radius: 2rem;
   background: linear-gradient(
     45deg,
@@ -18,8 +17,30 @@
   place-items: center;
 }
 
+.displayCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: var(--color-primary);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.icon {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
 .myImg {
   border-radius: 2rem;
+}
+.para {
+  padding-top: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -27,11 +48,31 @@
     grid-template-columns: 1fr;
     gap: 0;
   }
+  .myImg {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .para {
+    margin: 1rem 0 1.5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .aboutContainer {
     width: 65%;
     margin: 0 auto 3rem;
+  }
+
+  .displayCards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .myImg {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .para {
+    margin: 1.5rem 0;
   }
 }

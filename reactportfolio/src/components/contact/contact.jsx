@@ -3,6 +3,10 @@ import "./contact.css";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
+import { MdOutlineEmail } from "react-icons/md";
+import { FaFacebookMessenger } from "react-icons/fa";
+import { AiFillPhone } from "react-icons/ai";
+
 const Contact = () => {
   const form = useRef();
 
@@ -29,22 +33,28 @@ const Contact = () => {
   };
   return (
     <section>
-      <h5></h5>
-      <h2></h2>
+      <h5>Enter In The Feilds Below To</h5>
+      <h2>Contact Me</h2>
 
       <div className="container contactDiv">
         <div className="options">
           <article className="opt">
-            {/* email icon */}
-            <h4></h4>
+            <MdOutlineEmail className="icon" />
+            <h4>My email: krasniqi1287</h4>
             <h5></h5>
             <a href="mailto:krasniqi1287@gmail.com">send a message</a>
           </article>
           <article className="opt">
-            {/* messenger icon */}
-            <h4></h4>
+            <FaFacebookMessenger className="icon" />
+            <h4>My messanger: </h4>
             <h5></h5>
             <a href="https://m.me/mymessangerid">send a message</a>
+          </article>
+          <article className="opt">
+            <AiFillPhone className="icon" />
+            <h4>My Number: 905-325-6867</h4>
+            <h5></h5>
+            <a href="https://m.me/1873312902893349">send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

@@ -1,0 +1,68 @@
+.expContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.expContainer > div {
+  background: var(--color-primary);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.expContainer > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.expContainer > div:hover {
+  background: var(--color-black);
+  color: var(--color-bg);
+  transition: var(--transition);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.expText {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  margin-top: 6px;
+  color: white;
+}
+
+.downloadBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .expContainer {
+    grid-template-columns: 1fr;
+  }
+  .expContainer > div {
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+  }
+  .content {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .expContainer {
+    gap: 1rem;
+  }
+  .expContainer > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}
