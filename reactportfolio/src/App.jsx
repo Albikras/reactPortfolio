@@ -10,7 +10,7 @@ import Expirence from "./components/expirence/Expirence";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
 
-const app = () => {
+const App = () => {
   return (
     <>
       <Router>
@@ -25,9 +25,8 @@ const app = () => {
         <Nav />
         <Footer />
       </Router>
-      {/*  */}
     </>
   );
 };
 
-export default app;
+export default App;

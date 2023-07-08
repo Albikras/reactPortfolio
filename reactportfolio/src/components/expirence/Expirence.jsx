@@ -105,7 +105,7 @@ const Expirence = () => {
           </div>
         </div>
       </div>
-      <DownloadRes />
+      <DownloadRes className="fix" />
     </section>
   );
 };

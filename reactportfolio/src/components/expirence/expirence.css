@@ -41,6 +41,7 @@
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -64,5 +65,11 @@
   .expContainer > div {
     width: 100%;
     padding: 2rem 1rem;
+  }
+  .expText {
+    font-size: small;
+  }
+  .icon {
+    font-size: medium;
   }
 }

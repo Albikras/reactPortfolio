@@ -15,53 +15,55 @@ import "./nav.css";
 const Nav = () => {
   const [navbar, setNav] = useState("/");
   return (
-    <nav>
-      <Link to="/">
-        <a
-          href="/"
-          onClick={() => setNav("/")}
-          className={navbar === "/" ? "active" : ""}
-        >
-          <AiOutlineHome className="iconNav" />
-        </a>
-      </Link>
-      <Link to="/about">
-        <a
-          href="/about"
-          onClick={() => setNav("/about")}
-          className={navbar === "/about" ? "active" : ""}
-        >
-          <AiOutlineUser className="iconNav" />
-        </a>
-      </Link>
-      <Link to="/portfolio">
-        <a
-          href="/portfolio"
-          onClick={() => setNav("/portfolio")}
-          className={navbar === "/portfolio" ? "active" : ""}
-        >
-          <GrProjects className="iconNav" />
-        </a>
-      </Link>
-      <Link to="/expirence">
-        <a
-          href="/expirence"
-          onClick={() => setNav("/expirence")}
-          className={navbar === "/expirence" ? "active" : ""}
-        >
-          <FaCog className="iconNav" />
-        </a>
-      </Link>
-      <Link to="/contact">
-        <a
-          href="/contact"
-          onClick={() => setNav("/contact")}
-          className={navbar === "/contact" ? "active" : ""}
-        >
-          <AiFillMessage className="iconNav" />
-        </a>
-      </Link>
-    </nav>
+    <>
+      <nav>
+        <Link to="/">
+          <a
+            href="/"
+            onClick={() => setNav("/")}
+            className={navbar === "/" ? "active" : ""}
+          >
+            <AiOutlineHome className="iconNav" />
+          </a>
+        </Link>
+        <Link to="/about">
+          <a
+            href="/about"
+            onClick={() => setNav("/about")}
+            className={navbar === "/about" ? "active" : ""}
+          >
+            <AiOutlineUser className="iconNav" />
+          </a>
+        </Link>
+        <Link to="/portfolio">
+          <a
+            href="/portfolio"
+            onClick={() => setNav("/portfolio")}
+            className={navbar === "/portfolio" ? "active" : ""}
+          >
+            <GrProjects className="iconNav" />
+          </a>
+        </Link>
+        <Link to="/expirence">
+          <a
+            href="/expirence"
+            onClick={() => setNav("/expirence")}
+            className={navbar === "/expirence" ? "active" : ""}
+          >
+            <FaCog className="iconNav" />
+          </a>
+        </Link>
+        <Link to="/contact">
+          <a
+            href="/contact"
+            onClick={() => setNav("/contact")}
+            className={navbar === "/contact" ? "active" : ""}
+          >
+            <AiFillMessage className="iconNav" />
+          </a>
+        </Link>
+      </nav>
+    </>
   );
 };
 

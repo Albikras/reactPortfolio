@@ -71,7 +71,7 @@ const projects = () => {
           return (
             <article key={id} className="project">
               <div className="projectImg">
-                <img src={image} alt={altimage} />
+                <img src={image} alt={altimage} className="fix" />
               </div>
               <h3>{title}</h3>
               <div className="projectBtns">
