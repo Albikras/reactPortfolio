@@ -17,7 +17,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route
-            path="https://albikras.github.io/reactPortfolio/"
+            path="https://albikras.github.io/reactPortfolio"
             element={<Intro />}
           ></Route>
           <Route path="/about" element={<About />}></Route>
