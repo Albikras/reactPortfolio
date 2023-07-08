@@ -46,3 +46,7 @@ Gitpages: https://albikras.github.io/reactPortfolio/
 ![contact](./reactportfolio/src/images/realcontact.png)
 
 ## video
+
+
+https://github.com/Albikras/reactPortfolio/assets/124819029/ed09e300-c5c4-4cbe-bba1-c5c23193b17f
+
