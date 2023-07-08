@@ -13,14 +13,10 @@ import Header from "./components/header/Header";
 const App = () => {
   return (
     <>
-      <Router basename="http://Albikras.github.io/reactPortfolio">
+      <Router basename="/">
         <Header />
         <Routes>
-          <Route
-            exact
-            path="http://Albikras.github.io/reactPortfolio"
-            element={<Intro />}
-          ></Route>
+          <Route exact path="/" element={<Intro />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/portfolio" element={<Projects />}></Route>
           <Route path="/expirence" element={<Expirence />}></Route>
