@@ -2,6 +2,8 @@ import React from "react";
 import "./about.css";
 import lbImg from "../../images/Myname.jpg";
 
+import { Link } from "react-router-dom";
+
 import { FaAward } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 import { FaPython } from "react-icons/fa";
@@ -48,10 +50,11 @@ const About = () => {
             natus maiores culpa perspiciatis excepturi. Rem, error nesciunt!
             Maxime iure facere earum eaque sapiente a.
           </p>
-
-          <a href="#contact" className="btn btn-primary">
-            contact
-          </a>
+          <Link to="/contact">
+            <a href="/contact" className="btn btn-primary">
+              contact
+            </a>
+          </Link>
         </div>
       </div>
     </section>

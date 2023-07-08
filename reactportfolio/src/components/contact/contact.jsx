@@ -54,7 +54,7 @@ const Contact = () => {
             <AiFillPhone className="icon" />
             <h4>My Number: 905-325-6867</h4>
             <h5></h5>
-            <a href="https://m.me/1873312902893349">send a message</a>
+            <a href="#">send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

@@ -31,6 +31,12 @@
   text-align: center;
 }
 
+.card:hover {
+  background: var(--color-black);
+  color: var(--color-bg);
+  transition: var(--transition);
+}
+
 .icon {
   font-size: 1.4rem;
   margin-bottom: 1rem;

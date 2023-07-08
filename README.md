@@ -15,10 +15,6 @@
 
 node.js
 
-## Usage
-
-![1](1)
-
 ## Credits
 
 N/A
@@ -39,8 +35,14 @@ If you want to reach me with additional question click my email link here: krasn
 
 ## Links
 
-Gitpages:
+Gitpages: https://albikras.github.io/reactPortfolio/
 
 ## Screenshot
 
-![1](1)
+![homepage](./reactportfolio/src/images/home.png)
+![about me](./reactportfolio/src/images/aboutme.png)
+![portfolio](./reactportfolio/src/images/projects.png)
+![resume](./reactportfolio/src/images/contact.png)
+![contact](./reactportfolio/src/images/realcontact.png)
+
+## video
