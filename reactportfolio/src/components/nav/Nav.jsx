@@ -13,15 +13,19 @@ import { GrProjects } from "react-icons/gr";
 import "./nav.css";
 
 const Nav = () => {
-  const [navbar, setNav] = useState("/reactPortfolio");
+  const [navbar, setNav] = useState("http://Albikras.github.io/reactPortfolio");
   return (
     <>
       <nav>
-        <Link to="/reactPortfolio">
+        <Link to="http://Albikras.github.io/reactPortfolio">
           <a
-            href="/reactPortfolio"
-            onClick={() => setNav("/reactPortfolio")}
-            className={navbar === "/reactPortfolio" ? "active" : ""}
+            href="http://Albikras.github.io/reactPortfolio"
+            onClick={() => setNav("http://Albikras.github.io/reactPortfolio")}
+            className={
+              navbar === "http://Albikras.github.io/reactPortfolio"
+                ? "active"
+                : ""
+            }
           >
             <AiOutlineHome className="iconNav" />
           </a>
