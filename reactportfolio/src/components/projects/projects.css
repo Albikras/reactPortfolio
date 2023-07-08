@@ -6,7 +6,12 @@
 }
 
 .project {
-  background-color: var(--color-primary);
+  background-color: rgb(33, 147, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 147, 176, 1) 0%,
+    rgba(109, 195, 237, 1) 100%
+  );
   padding: 1.3rem;
   border-radius: 2rem;
   border: 1px solid transparent;
@@ -17,6 +22,7 @@
   border-color: var(--color-black);
   background: var(--color-black);
   color: var(--color-bg);
+  transition: var(--transition);
 }
 
 .projectImg {
