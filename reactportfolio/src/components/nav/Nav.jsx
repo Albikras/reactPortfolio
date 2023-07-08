@@ -17,11 +17,15 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <Link to="/">
+        <Link to="http://Albikras.github.io/reactPortfolio">
           <a
-            href="/"
-            onClick={() => setNav("/")}
-            className={navbar === "/" ? "active" : ""}
+            href="http://Albikras.github.io/reactPortfolio"
+            onClick={() => setNav("http://Albikras.github.io/reactPortfolio")}
+            className={
+              navbar === "http://Albikras.github.io/reactPortfolio"
+                ? "active"
+                : ""
+            }
           >
             <AiOutlineHome className="iconNav" />
           </a>
