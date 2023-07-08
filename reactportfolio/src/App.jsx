@@ -7,16 +7,16 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Expirence from "./components/expirence/Expirence";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
 
 const App = () => {
   return (
     <>
-      <Router basename="/">
+      <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Intro />}></Route>
+          <Route path="/" element={<Intro />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/portfolio" element={<Projects />}></Route>
           <Route path="/expirence" element={<Expirence />}></Route>
