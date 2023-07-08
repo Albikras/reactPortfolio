@@ -17,12 +17,12 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <Link to="http://Albikras.github.io/reactPortfolio">
+        <Link to="https://albikras.github.io/reactPortfolio/">
           <a
-            href="http://Albikras.github.io/reactPortfolio"
-            onClick={() => setNav("http://Albikras.github.io/reactPortfolio")}
+            href="https://albikras.github.io/reactPortfolio/"
+            onClick={() => setNav("https://albikras.github.io/reactPortfolio/")}
             className={
-              navbar === "http://Albikras.github.io/reactPortfolio"
+              navbar === "https://albikras.github.io/reactPortfolio/"
                 ? "active"
                 : ""
             }
