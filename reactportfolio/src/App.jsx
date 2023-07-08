@@ -16,7 +16,7 @@ const App = () => {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Intro />}></Route>
+          <Route path="/reactPortfolio" element={<Intro />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/portfolio" element={<Projects />}></Route>
           <Route path="/expirence" element={<Expirence />}></Route>
