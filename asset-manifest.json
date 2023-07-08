@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.f1767ae6.css",
-    "main.js": "/reactPortfolio/static/js/main.4c59795f.js",
+    "main.css": "/reactPortfolio/static/css/main.67f68194.css",
+    "main.js": "/reactPortfolio/static/js/main.c23802da.js",
     "static/media/blakcJackWebpage.png": "/reactPortfolio/static/media/blakcJackWebpage.72ba00a839a6a76993f4.png",
     "static/media/bookflix.png": "/reactPortfolio/static/media/bookflix.db6544fdb14058d2cb13.png",
     "static/media/quiz.png": "/reactPortfolio/static/media/quiz.e1509932ca0ddd32726d.png",
@@ -10,11 +10,11 @@
     "static/media/Myname.jpg": "/reactPortfolio/static/media/Myname.8bb1c5f160c032400e95.jpg",
     "static/media/blog.png": "/reactPortfolio/static/media/blog.d9035301908897d66d3d.png",
     "index.html": "/reactPortfolio/index.html",
-    "main.f1767ae6.css.map": "/reactPortfolio/static/css/main.f1767ae6.css.map",
-    "main.4c59795f.js.map": "/reactPortfolio/static/js/main.4c59795f.js.map"
+    "main.67f68194.css.map": "/reactPortfolio/static/css/main.67f68194.css.map",
+    "main.c23802da.js.map": "/reactPortfolio/static/js/main.c23802da.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1767ae6.css",
-    "static/js/main.4c59795f.js"
+    "static/css/main.67f68194.css",
+    "static/js/main.c23802da.js"
   ]
 }
